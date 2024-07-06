@@ -4,12 +4,15 @@
              x:Class="menuNavegacion.MainPage">
 <!--Comentario en colaboracion-->
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Padding="40">
             <Label Text="MENU DE NAVEGACION - PRACTICA 11" 
                    FontSize="24" 
                    FontAttributes="Bold"
                    HorizontalOptions="Center" 
                    Margin="0,20,0,0"/>
+
+            <Button Text="ALgoritmo Cambio De Cliente" BackgroundColor="Aqua"
+                    TextColor="Black" Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
