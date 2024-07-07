@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="menuNavegacion.Pages.CalcularSuperficie"
+             Title="CalcularSuperficie">
+    <VerticalStackLayout Padding="40">
+        <Label Padding="10" Text="Algoritmo Para Calcular La Superficie De Un Triangulo" 
+               HorizontalTextAlignment="Center"/>
+        <Entry x:Name="entryAltura" Placeholder="Digite la altura del triangulo" />
+        <Entry x:Name="entryBase" Placeholder="Digite la base del triangulo" />
+        <Label Padding="10" x:Name="labelResultado" Text="Aqui se mostrara la superficie"
+               TextColor="Gray"/>
+        <Button Text="Tocar para obtener la superficie" BackgroundColor="LightCoral"
+                TextColor="Black" Clicked="Button_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

@@ -295,5 +295,12 @@ namespace menuNavegacion
             NavigationPage navigationPage = new NavigationPage(nextPage);
             Application.Current.MainPage = navigationPage;
         }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+            var nextPage = new CalcularSuperficie();
+            NavigationPage navigationPage = new NavigationPage(nextPage);
+            Application.Current.MainPage = navigationPage;
+        }
     }
 }

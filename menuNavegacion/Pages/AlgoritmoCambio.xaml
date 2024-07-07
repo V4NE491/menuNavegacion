@@ -3,17 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="menuNavegacion.Pages.AlgoritmoCambio"
              Title="AlgoritmoCambio">
-
-    <NavigationPage.TitleView>
-        <Slider HeightRequest="44"
-                WidthRequest="300"/>
-    </NavigationPage.TitleView>
     <VerticalStackLayout Padding="40">
 
-        <Label Text="Algoritmo Que Calula El Cambio De Un Cliente" />
+        <Label Padding="10" Text="Algoritmo Que Calula El Cambio De Un Cliente" 
+               HorizontalTextAlignment="Center"/>
+       
         <Entry x:Name="entryPrecio" Placeholder="Digite el precio del producto" />
         <Entry x:Name="entryDinero" Placeholder="Digite el dinero dado por el cliente" />
-        <Label x:Name="labelCambio" Text="Aqui se mostrara el cambio del cliente" TextColor="Gray"/>
+     
+        <Label Padding="10" x:Name="labelCambio" Text="Aqui se mostrara el cambio del cliente" TextColor="Gray"/>
+        
         <Button Text="Tocar para obtener el cambio de un cliente" 
                 BackgroundColor="LightCoral" TextColor="Black"
                 Clicked="Button_Clicked"/>
