@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="menuNavegacion.Pages.CalcularSuperficie"
              Title="CalcularSuperficie">
+    <!--un comentario mas-->
     <!--Otro comentario pa probar-->
     <VerticalStackLayout Padding="40">
         <Label Padding="10" Text="Algoritmo Para Calcular La Superficie De Un Triangulo" 
